@@ -1,0 +1,5 @@
+TriviaMaster is the "Jeopardy" style application that will serve as a continuing example used in the CSCE 146 SI sessions.
+
+It will eventually support multiple users, a working client for players, a working client for the host, network communications, and a simple web interface. The SI Leader will provide implementations for the networking & Web interface components. SI participants will help to write the underlying game logic, as well as the various data structures involved in supporting the application.
+
+
