@@ -34,7 +34,8 @@ public class LLDB implements DB<Question, Query> {
 	
 	
 	public LLDB() {
-		// LLDB needs a constructor.
+		head = null;
+		current = null;
 	}
 	
 	public LLDB(LLDB old_db) {
