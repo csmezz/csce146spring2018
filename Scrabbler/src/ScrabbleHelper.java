@@ -56,6 +56,7 @@ public class ScrabbleHelper {
 		}
 	}
 	
+	// This will give you the value of a letter.
 	public int getLetterValue(char c) {
 		if (values.get(Character.toString(c)) != null) {
 			return values.get(String.valueOf(c));
@@ -63,6 +64,7 @@ public class ScrabbleHelper {
 		return 0;
 	}
 	
+	// This will give you the value of a word.
 	public int getWordValue(String w) {
 		String word = w.toUpperCase();
 		int val = 0;
@@ -74,6 +76,7 @@ public class ScrabbleHelper {
 		return val;
 	}
 	
+	// This will return a set of 100 random words from the dictionary.
 	public Set<String> getHundredWords() {
 		Set<String> temp = new HashSet<String>();
 		int size = dictionary.size();
